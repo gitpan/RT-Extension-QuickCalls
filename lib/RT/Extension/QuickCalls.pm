@@ -1,6 +1,6 @@
 package RT::Extension::QuickCalls;
 
-our $VERSION = '0.03';
+our $VERSION = '0.04';
 
 use warnings;
 use strict;
@@ -47,7 +47,7 @@ L<http://rt.cpan.org>.
 
 =head1 AUTHOR
 
-Kevin Falcone  C<< <falcone@bestpractical.com> >>
+Kevin Falcone
 
 
 =head1 LICENCE AND COPYRIGHT
