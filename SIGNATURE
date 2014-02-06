@@ -1,5 +1,5 @@
 This file contains message digests of all files listed in MANIFEST,
-signed via the Module::Signature module, version 0.66.
+signed via the Module::Signature module, version 0.73.
 
 To verify the content in this distribution, first make sure you have
 Module::Signature installed, then type:
@@ -14,30 +14,32 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 1305aab87d9cee0ec1b4ea372acec7520377a497 Changes
-SHA1 f4aebdb6f71d913ccd3dc0c742aa6ec4daa07f4d MANIFEST
-SHA1 8d44efe36713da3404d29b63c88d3c60c2c90691 META.yml
-SHA1 50fbe7b41d76e931197e43dbdc90650283ce3e77 Makefile.PL
-SHA1 6409b7f9845df953ed12395b5800b7130ea56a7f README
+SHA1 dbc271bf3f63e71698751e5f0292d691c7f28572 Changes
+SHA1 7668228770101855a622c6e336a2639b7e368d74 MANIFEST
+SHA1 ba3a646a69d0f7ab6cf4083308984a022c4e1ba2 META.yml
+SHA1 df6de2a12db7378110d9af0fe1e6a8eebd931f58 Makefile.PL
+SHA1 7aa880cc06963dfdf3ccb2e66fd8abfff0fa0e01 README
 SHA1 f81f39099aa57f7da680b4a31a3e85f7216a3c00 html/Elements/QuickCalls
 SHA1 7105aaee62441c93827d2db5e2b2fd523352fd92 html/Helpers/QuickCalls
-SHA1 7b4ae50ebac72d20761171c4c2b50c206344ea40 inc/Module/Install.pm
-SHA1 d9fe55a427fe2fd75b5029afeeaa61b592e07f79 inc/Module/Install/Base.pm
-SHA1 62d3922826d9f89f20c185e7031ac8f028504745 inc/Module/Install/Can.pm
-SHA1 dc809f64fb70a26b069a36f8d3d353d520dbb7e1 inc/Module/Install/Fetch.pm
-SHA1 73ab91490a628452cc140db72ef9d13a1326d211 inc/Module/Install/Makefile.pm
-SHA1 8ce3f2b414e4617e6233dd4ba10830f8c5d672ec inc/Module/Install/Metadata.pm
-SHA1 984c74c699eadd6119b930fa8ffcf4864d48e827 inc/Module/Install/RTx.pm
-SHA1 3b0acd2eeac93a0afe48120f5648f0db362e5bbf inc/Module/Install/Win32.pm
-SHA1 f08924f051e623f8e09fa6a121993c4a9cf7d9eb inc/Module/Install/WriteAll.pm
-SHA1 907623daaf24bc774db9d8de3f03d38ccd606a3b lib/RT/Extension/QuickCalls.pm
-SHA1 fb0aa0e05e64c181af97956633fc396ae6c19525 t/00.load.t
-SHA1 6da39b48ce64b584e4c3274bff96fc76ff484820 t/pod-coverage.t
-SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 t/pod.t
+SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
+SHA1 2d0fad3bf255f8c1e7e1e34eafccc4f595603ddc inc/Module/Install/Base.pm
+SHA1 f0e01fff7d73cd145fbf22331579918d4628ddb0 inc/Module/Install/Can.pm
+SHA1 7328966e4fda0c8451a6d3850704da0b84ac1540 inc/Module/Install/Fetch.pm
+SHA1 b62ca5e2d58fa66766ccf4d64574f9e1a2250b34 inc/Module/Install/Makefile.pm
+SHA1 1aa925be410bb3bfcd84a16985921f66073cc1d2 inc/Module/Install/Metadata.pm
+SHA1 fa606e94b4706e2557febeeb490e054107ac521e inc/Module/Install/RTx.pm
+SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
+SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
+SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
+SHA1 c970ef238bd9fd019bf51ca1ae7905b3b77cc877 lib/RT/Extension/QuickCalls.pm
+SHA1 fb0aa0e05e64c181af97956633fc396ae6c19525 xt/00.load.t
+SHA1 6da39b48ce64b584e4c3274bff96fc76ff484820 xt/pod-coverage.t
+SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 xt/pod.t
 -----BEGIN PGP SIGNATURE-----
-Version: GnuPG v1.4.10 (Darwin)
+Version: GnuPG v1.4.12 (Darwin)
+Comment: GPGTools - http://gpgtools.org
 
-iEYEARECAAYFAk3WmT4ACgkQ0+gKWp5CJQrVpACfTncDi2LCzHwBtUTk3fLP/NOZ
-5mgAoI6uYj5FKA7oTolaOUsF2LOF8hiT
-=wmnr
+iEYEARECAAYFAlL0FRcACgkQ0+gKWp5CJQp1uACgvcB2vCqKf8hng1Rxj8kNi0Og
+fmEAn2473qfmRlK3WD40hEIT+r0cehid
+=vYVC
 -----END PGP SIGNATURE-----
