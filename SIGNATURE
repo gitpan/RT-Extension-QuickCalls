@@ -14,11 +14,11 @@ not run its Makefile.PL or Build.PL.
 -----BEGIN PGP SIGNED MESSAGE-----
 Hash: SHA1
 
-SHA1 dbc271bf3f63e71698751e5f0292d691c7f28572 Changes
+SHA1 e9ca88af7ec32dd53f8f3b7d2fc902ccf408e36e Changes
 SHA1 7668228770101855a622c6e336a2639b7e368d74 MANIFEST
-SHA1 ba3a646a69d0f7ab6cf4083308984a022c4e1ba2 META.yml
+SHA1 a29aaa12e31f22865a2a1d033770614faaf79d53 META.yml
 SHA1 df6de2a12db7378110d9af0fe1e6a8eebd931f58 Makefile.PL
-SHA1 7aa880cc06963dfdf3ccb2e66fd8abfff0fa0e01 README
+SHA1 9fa3a73f4c8cfb56e690ba0ae817f86acfcc7472 README
 SHA1 f81f39099aa57f7da680b4a31a3e85f7216a3c00 html/Elements/QuickCalls
 SHA1 7105aaee62441c93827d2db5e2b2fd523352fd92 html/Helpers/QuickCalls
 SHA1 8a924add836b60fb23b25c8506d45945e02f42f4 inc/Module/Install.pm
@@ -31,7 +31,7 @@ SHA1 fa606e94b4706e2557febeeb490e054107ac521e inc/Module/Install/RTx.pm
 SHA1 79f5b4199f622e8b05aac266b0c39f6a85bb303f inc/Module/Install/ReadmeFromPod.pm
 SHA1 e4196994fa75e98bdfa2be0bdeeffef66de88171 inc/Module/Install/Win32.pm
 SHA1 c3a6d0d5b84feb3280622e9599e86247d58b0d18 inc/Module/Install/WriteAll.pm
-SHA1 c970ef238bd9fd019bf51ca1ae7905b3b77cc877 lib/RT/Extension/QuickCalls.pm
+SHA1 c35a95a57f5cf0dc49a0cfadffad63766aade59c lib/RT/Extension/QuickCalls.pm
 SHA1 fb0aa0e05e64c181af97956633fc396ae6c19525 xt/00.load.t
 SHA1 6da39b48ce64b584e4c3274bff96fc76ff484820 xt/pod-coverage.t
 SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 xt/pod.t
@@ -39,7 +39,7 @@ SHA1 0190346d7072d458c8a10a45c19f86db641dcc48 xt/pod.t
 Version: GnuPG v1.4.12 (Darwin)
 Comment: GPGTools - http://gpgtools.org
 
-iEYEARECAAYFAlL0FRcACgkQ0+gKWp5CJQp1uACgvcB2vCqKf8hng1Rxj8kNi0Og
-fmEAn2473qfmRlK3WD40hEIT+r0cehid
-=vYVC
+iEYEARECAAYFAlL0F88ACgkQ0+gKWp5CJQohxgCg2glKZsRfDW5A2DS0pmzxLzV9
+iIkAnAmDDIal6dM0kHR3WCAtcrzLKNg2
+=U818
 -----END PGP SIGNATURE-----
