@@ -1,6 +1,6 @@
 package RT::Extension::QuickCalls;
 
-our $VERSION = '0.06';
+our $VERSION = '1.00';
 
 use warnings;
 use strict;
@@ -15,7 +15,7 @@ RT::Extension::QuickCalls - Quickly create tickets in specific queues with defau
 =head1 SYNOPSIS
 
 You will need to enable the new QuickCalls portlet with a line
-like this in your RT_SiteConfig.pm file
+like this in your F<RT_SiteConfig.pm> file:
 
     Set($HomepageComponents, [qw(QuickCreate Quicksearch MyAdminQueues MySupportQueues MyReminders
                                  RefreshHomepage QuickCalls)]);
@@ -24,19 +24,33 @@ This is the default portlet list with QuickCalls added to the end
 People can then choose to add the portlet to their homepage
 in Preferences -> RT at a glance
 
-To set up your Quick Calls, you will want to specify a Name and a Queue
-in the config file.  The Name will become the Subject of the task unless
-you specify a Subject option.  You can add other Ticket options as needed,
-such as Status.
+To set up your Quick Calls, you will want to specify a C<Name> and a
+C<Queue> in the config file.  The C<Name> will become the C<Subject> of
+the task unless you specify a C<Subject> option.  You can add other
+Ticket options as needed, such as C<Status>.  Additionally, if the
+C<SetOwnerToCurrentUser> option is set, the ticket will be owned by the
+current user.
 
     Set($QuickCalls,[{Name => "Foo", Queue => 'General', Status => 'resolved'},
                      {Name => "Bar", Queue => 'Queue2',  Status => 'resolved'}]);
 
+If a value is an anonymous subref, it will be called when the QuickCall
+is selected, and its return value filled in for the appropriate key:
+
+    Set($QuickCalls,[ {
+       Queue   => 'General',
+       Name    => 'This will have the current time on the server in its content',
+       Content => sub {
+          my $date = localtime;
+          return "When: $date\n\n";
+       },
+    }]);
+
 After you have added QuickCalls to your home page, you will be able to select
 one, click Create and be brought to the ticket creation page with multiple
-fields pre-filled
+fields pre-filled.
 
-=head1 INSTALLATION 
+=head1 INSTALLATION
 
 =over
 
@@ -59,6 +73,9 @@ For earlier releases of RT 4, add this line:
     Set(@Plugins, qw(RT::Extension::QuickCalls));
 
 or add C<RT::Extension::QuickCalls> to your existing C<@Plugins> line.
+
+You will also need to add QuickCalls to the C<$HomepageComponents>
+configuration, as documented above.
 
 =item Clear your mason cache
 
